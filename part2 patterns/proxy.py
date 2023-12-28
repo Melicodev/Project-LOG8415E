@@ -7,6 +7,11 @@ from pythonping import ping
 from sshtunnel import SSHTunnelForwarder
 import Flask
 
+##Disclaimer added: I just comment this file too to precise that for the security side of the proxy, sshtunnelforwarder was the only I could have thought of
+##Indeed, it does help to establish a safe connection to the server instead of doing nothing
+##the send query function corresponds to the direct_hit method to send the requests
+##I create a flask app so I can run the app and manage the requests
+
 app = Flask(__name__)
 
 def send_query(ip_of_worker, ip_of_manager, request):
