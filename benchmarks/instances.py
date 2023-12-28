@@ -4,6 +4,12 @@ import random
 import string
 import os
 
+
+##Comment for a little more clarity: this is the same file as my other from lab2 but one function has changed as I explained in my report
+##as well the security group function to allow port connections, and the setup function very useful to call in my setup.py file
+
+##This class still creates instances for workers, manager as well as the proxy and the gatekeeper
+
 availability_zone = 'us-east-1a'
 ImageId = "ami-0a6b2839d44d781b2" #ubuntu ami
 
